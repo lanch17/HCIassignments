@@ -1,0 +1,38 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ .parent{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     padding: 10px;
+     row-gap: 15px;
+     column-gap: 15px;
+ }
+img {
+    width: 448px;
+}
+iframe{
+    width: 448px;
+    height:252px;
+
+}
+table, th, td {
+    border: 1px solid black;
+  }
