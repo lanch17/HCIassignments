@@ -3,28 +3,42 @@
 <head>
 <title>image</title>
 <link rel = "stylesheet" href = "style.css">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
+
 <nav class = "navigation">
     <ul>
         <li><a  href = "index.html"> Text</a></li>
-        <li><a href = "image.html"> Image</a></li>
+        <li><a class="active" href = "image.html"> Image</a></li>
         <li><a href = "video.html"> Video</a></li>
         <li><a href = "table.html"> Table</a></li>
+        <li><a  href = "email.html"> Email</a></li>
+
     </ul>
 </nav><br>
 </head>
 
 <body>
     <h1> Gallery of the Geo God</h1>
+    
     <div class = "parent">
-        <div class = "child"> <img src= "images/art1.png" ></div>
-        <div class = "child"> <img src= "images/art2.png"></div>
-        <div class = "child"> <img src= "images/art3.png"></div>
-        <div class = "child"> <img src= "images/art4.png"></div>
-        <div class = "child"> <img src= "images/art5.png"></div>
-        <div class = "child"> <img src= "images/art6.PNG"></div>
+        <div class = "child"> <img id = "Img1" src= "images/art1.png" ></div>
+        <div class = "child"> <img id = "Img2"src= "images/art2.png"></div>
+        <div class = "child"> <img id = "Img3" src= "images/art3.png"></div>
+        <div class = "child"> <img id = "Img4" src= "images/art4.png"></div>
+        <div class = "child"> <img id = "Img5" src= "images/art5.png"></div>
+        <div class = "child"> <img id = "Img6" src= "images/art6.PNG"></div>
         
     </div>
-
+    
+    <div id="overlay-image" class="overlay-s-style">
+    <div class="image-block" >
+        <img id = "enlarged" src= "images/art1.png" >
+    </div> 
+    </div>
+  
+    
+    <button class="scrollToTopBtn">☝️</button>
 </body>
 
 </html>
