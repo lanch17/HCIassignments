@@ -3,26 +3,38 @@
 <head>
 <title>video</title>
 <link rel = "stylesheet" href = "style.css">
+
 <nav class = "navigation">
     <ul>
         <li><a  href = "index.html"> Text</a></li>
         <li><a href = "image.html"> Image</a></li>
-        <li><a href = "video.html"> Video</a></li>
+        <li><a class="active" href = "video.html"> Video</a></li>
         <li><a href = "table.html"> Table</a></li>
+        <li><a  href = "email.html"> Email</a></li>
+
     </ul>
 </nav><br>
 </head>
 
 <body>
-<h1>My favorite study music</h1>
+<h1>When I First Rolled My Five Stars</h1>
+<script type="text/javascript" src="videoscript.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
 <div class = "parent">
-    <div class = "child"><iframe  src="https://www.youtube.com/embed/9PmG8SMcObI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <div class = "child"><iframe  src="https://www.youtube.com/embed/ownHh9QIsRk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <div class = "child"><iframe src="https://www.youtube.com/embed/YrTpQhfe7NY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <div class = "child"><iframe  src="https://www.youtube.com/embed/El2v0jRisyw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <div class = "child"><iframe  src="https://www.youtube.com/embed/Y_7kBy0IRo4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <div class = "child"><iframe  src="https://www.youtube.com/embed/t1O7LpOTBfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div class = "child"  ><video id = "video1" controls autoplay src="videos/zhonglibirthday.MOV"></video></div>
+    <div class = "child"  ><video id = "video2"controls autoplay src="videos/zhongli.MOV"></video></div>
+    <div class = "child"  ><video id = "video3"controls autoplay src="videos/jean.MOV"></video></div>
+    <div class = "child"  ><video id = "video4"controls autoplay src="videos/diluc.MOV"></video></div>
+
+
 </div>
+<div id="overlay-video" class="overlay-s-style">
+    <div class="video-block"  >
+        <video id = "enlargedvideo" controls autoplay src= "videos/zhonglibirthday.MOV" ></video>
+    </div> 
+    </div>
+
+    <button class="scrollToTopBtn">Scroll to top</button>
 </body>
 
 </html>
